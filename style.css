@@ -1,0 +1,45 @@
+
+div.container {
+    width: 100%;
+    border: 20px solid purple;
+}
+
+header {
+background: #4aaaa5;
+
+
+}
+
+
+
+footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+#pix {
+    float: left;
+    max-width: auto;
+    margin: 2px;
+    padding: 2em;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: black;
+    padding: 1em;
+    overflow: hidden;
+}

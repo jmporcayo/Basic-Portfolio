@@ -1,16 +1,41 @@
 
 div.container {
     width: 100%;
-    border: 20px solid purple;
+    border: 2px solid lightpink;
 }
 
 header {
-background: #4aaaa5;
+background: #ffac9d;
 
 
 }
 
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: aliceblue;
+}
 
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li#jmp {
+    float: left;
+    background-color: aqua;
+    margin-left: 2.5em;
+    
+}
 
 footer {
     padding: 1em;

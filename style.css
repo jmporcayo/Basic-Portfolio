@@ -1,8 +1,10 @@
 
 div.container {
+    
     left: 0;
     right: 0;
     background-color: lightgrey;
+    
     position: absolute;
     bottom: 0px;
 
@@ -76,11 +78,26 @@ article {
     overflow: hidden;
 }
 
-footer {
-    padding-top: 0em;
+.footer {
+    
     color: white;
     background-color: rgb(43, 39, 39);
-    clear: left;
     text-align: center;
+    border-top: 4px solid rgb(161, 75, 150);
+    height: 100%;
+    padding-top: 20px;
+    display: block;
+    margin-top: 580px;
+    box-sizing: border-box;
+    position: static;
+    width: 100%;
+    bottom: 0;
+    overflow: auto;
+    vertical-align: baseline;
+    bottom: -50px;
+    padding: 10px;
+
+
+    
     
 }

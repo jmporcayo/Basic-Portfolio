@@ -1,15 +1,19 @@
 
+html {
+    height: vh;
 
-.container {
-color: #777777;
-font-family: Arial, Helvetica, sans-serif;
-width: 960px;
-border: 2px #777777;
-margin-right: auto;
-margin-right: auto;
 }
 
+body {
+    min-height: 100%;
+    position: relative;
+border: 10px solid black;
+
+}
+
+/*this is my header*/
 header {
+
     background-color: #ffffff;
     border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -18,26 +22,19 @@ header {
 
 }
 
-h1 {
- background-color: white;
- color: #4aaaa5;
- padding: 3px;
- margin-top: 15px;
- 
-}
+/*This is my container within my header*/
+.container {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border: 2px #777777;
+    
+    }
 
-#content{
-
-   float: left;
-   background-color: #ffffff;
-   background-image: url"http://backgrounds.picaboo.com/backgrounds/download/4d/d9/4d96ecc5238b4e4aa31f9862a93f2477/parchment-green-danaconditt.jpg";
-   border: 2px lightgrey;
-   padding: 10%;
-   
-}
-
+/*This is my NavBar-float right*/
 nav {
     color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul {
@@ -51,7 +48,8 @@ color: black;
 
 nav li {
     display: inline-block;
-    color: black
+    color: black;
+    
     
 }
 
@@ -61,10 +59,11 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    float: right;
 
 }
 
-
+/*This is my name float-left*/
 nav li#jmp {
     float: left;
     background-color: #4aaaa5;
@@ -72,46 +71,46 @@ nav li#jmp {
 
 }
 
-h3 {
-        display: none;
+/*This is my Bio*/
+#content{
+
+    float: left;
+    
+ }
+
+/*This is "About Me"*/
+h1 {
+ background-color: white;
+ color: #4aaaa5;
+ font-family: Arial, Helvetica, sans-serif;
+ padding: 3px;
+ margin-top: 15px;
+ 
 }
+
 
 #image{
 
     float: left;
-
-
-
 }
 
 #main{
 
     float: left;
-    
+    font-family: Arial, Helvetica, sans-serif;
 
-
-}
-
-h2 {
-display: none;
 }
 
 
 /*footer, i can't get my top border to work*/
-
-
 footer {
-
-position: fixed;
-left: 0;
+font-family: Arial, Helvetica, sans-serif;
+position: absolute;
 bottom: 0;
-right: 0;
 width: 100%;
 background-color: #666666;
 border-top-color: #4aaaa5;
-padding: 15px;
+padding: 35px 0 10px 0;
 color:white;
 text-align: center;
-clear: both;
-overflow: hidden;
 }

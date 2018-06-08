@@ -1,13 +1,16 @@
 html {
     height: 100%;
-    
 }
 
 body {
     min-height: 100%;
-    width: 960px;
-    background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/02/Light-Parchment-Texture.jpg");
+    margin: 0 auto 0 auto;
+    background-image: url("http://www.commentnation.com/backgrounds/images/light_gray_parchment_paper_seamless_pattern.jpg");
     position: relative;
+    overflow-x: hidden;
+    background-size: auto;
+    
+    
 }
 
 /*this is my header*/
@@ -16,8 +19,7 @@ header {
     background-color: #ffffff;
     border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    padding: 0;
+    width: 100%;
 }
 
 #container {
@@ -27,8 +29,7 @@ header {
 
 /*This is my NavBar-float right*/
 nav {
-    color: #666666;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav ul {
@@ -37,13 +38,12 @@ margin: 0 10px 0 10px;
 padding: 0%;
 overflow: hidden;
 background-color: white;
-color: black;
+
 }
 
 nav li {
     display: inline-block;
-
-    float: right;
+    float: right; /*ABOUT PORFOLIO CONTACTS */
     
     
     
@@ -51,51 +51,51 @@ nav li {
 
 nav li a {
     display: block;
-    
-    text-align: center;
     padding: 14px;
     text-decoration: none;
     
 
 }
 
-/*This is my name float-left*/
+/*This is my name  top left, float-left*/
 nav li#jmp {
     float: left;
     background-color: #4aaaa5;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font: 18px white;
     margin-left: 2.5px;
 
 }
 
-/*could not get bio to float after the img*/
-#main {
-    width: 960px;
+
+
  
-}
-
-/*img {
-    float: left;
-} 
-didn't affect my page
-*/
-
-
-
+/*tried to float left didn't work*/
 #bio {
-    float: right;
+    width: 960px;
+    margin: 0 auto 0 auto;
+    
 }
 
 /*This is "About Me"*/
 h1 {
     background-color: hidden;
     color: #4aaaa5;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 3px;
     margin-top: 15px;
-    
    }
+
+img {
+    float: left;
+    margin: 10px;
+}
+
+#para {
+    float: left;
+    width: 75%;
+    margin: 10px;
+}
 
 footer {
     position: absolute;
@@ -108,4 +108,11 @@ footer {
     text-align: center;
     width: 100%;
     
+}
+
+/* form contacts--------------------------------------------- */
+form {
+    align-content: center;
+    width: auto;
+
 }

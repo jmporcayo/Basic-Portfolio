@@ -23,21 +23,30 @@ header {
 }
 
 #container {
-    padding: 15px;
+    padding: 20px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
 /*This is my NavBar-float right*/
 nav {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0;
+    width: 960px;
 }
 
 nav ul {
 list-style-type: none;
-margin: 0 10px 0 10px;
+margin-bottom: 0;
 padding: 0%;
 overflow: hidden;
 background-color: white;
+
+text-align: center
 
 }
 
@@ -53,6 +62,9 @@ nav li a {
     display: block;
     padding: 14px;
     text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #777777;
     
 
 }
@@ -63,7 +75,8 @@ nav li#jmp {
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font: 18px white;
-    margin-left: 2.5px;
+    
+    color: #ffffff; /* couldn't figure out how to get my color to change*/
 
 }
 
@@ -72,9 +85,12 @@ nav li#jmp {
  
 /*tried to float left didn't work*/
 #bio {
+    height: 225px;
     width: 960px;
-    margin: 0 auto 0 auto;
-    background-color: #ffffff
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+    border:5px solid #ffffff;
     
 }
 
@@ -85,7 +101,7 @@ h1 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 8px;
-    margin: 45px auto 25px auto;
+    margin: 45px auto 0 auto;
     border-bottom: 2px solid #cccccc; 
    }
 
@@ -98,6 +114,7 @@ img {
     float: left;
     width: 75%;
     margin: 10px;
+    font-size: 18px;
 }
 
 footer {
@@ -128,8 +145,12 @@ input {
 
 .formcontainer {
     border-radius: 5px;
-    background-color: #cccccc;
+    background-color: #ffffff;
     padding: 10px;
     width: 200px;
 }
 
+#contact {
+    text-align: left;
+    
+}

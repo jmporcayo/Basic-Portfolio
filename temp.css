@@ -74,16 +74,19 @@ nav li#jmp {
 #bio {
     width: 960px;
     margin: 0 auto 0 auto;
+    background-color: #ffffff
     
 }
 
 /*This is "About Me"*/
 h1 {
-    background-color: hidden;
+    width: 960px;
+    background-color: #ffffff;
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 3px;
-    margin-top: 15px;
+    padding: 8px;
+    margin: 45px auto 25px auto;
+    border-bottom: 2px solid #cccccc; 
    }
 
 img {
@@ -113,6 +116,20 @@ footer {
 /* form contacts--------------------------------------------- */
 form {
     align-content: center;
-    width: auto;
-
+    margin: auto;
+    width: 200px;
 }
+
+input {
+    width: auto;
+}
+
+
+
+.formcontainer {
+    border-radius: 5px;
+    background-color: #cccccc;
+    padding: 10px;
+    width: 200px;
+}
+

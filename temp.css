@@ -96,12 +96,12 @@ nav li#jmp {
 
 /*This is "About Me"*/
 h1 {
-    width: 960px;
+    width: 940px;
     background-color: #ffffff;
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 8px;
-    margin: 45px auto 0 auto;
+    padding-bottom: 30px;
     border-bottom: 2px solid #cccccc; 
    }
 
@@ -131,14 +131,24 @@ footer {
 }
 
 /* form contacts--------------------------------------------- */
+#conform {
+    border: 12px solid #ffffff;
+    background-color: #ffffff;
+    width:960px;
+    margin: 35px auto auto 150px;
+}
+
+
+
 form {
     align-content: center;
-    margin: auto;
-    width: 200px;
+    
+    
 }
 
 input {
-    width: auto;
+    width: 925px;
+    padding: 3px;
 }
 
 
@@ -147,10 +157,11 @@ input {
     border-radius: 5px;
     background-color: #ffffff;
     padding: 10px;
-    width: 200px;
+    width: 935px;
 }
 
 #contact {
     text-align: left;
+    
     
 }

@@ -81,16 +81,12 @@ nav li#jmp {
 }
 
 
-
- 
-/*tried to float left didn't work*/
-#bio {
-    height: 225px;
+#everything{
+    height: auto;
     width: 960px;
+    overflow-x: hidden;
     margin-right: auto;
     margin-left: auto;
-    background-color: #ffffff;
-    border:5px solid #ffffff;
     
 }
 
@@ -103,7 +99,23 @@ h1 {
     padding: 8px;
     padding-bottom: 30px;
     border-bottom: 2px solid #cccccc; 
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
    }
+ 
+/*tried to float left didn't work*/
+#bio {
+    height: 225px;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+    border:5px solid #ffffff;
+    
+}
+
+
 
 img {
     float: left;
@@ -131,12 +143,7 @@ footer {
 }
 
 /* form contacts--------------------------------------------- */
-#conform {
-    border: 12px solid #ffffff;
-    background-color: #ffffff;
-    width:960px;
-    margin: 35px auto auto 150px;
-}
+
 
 
 
@@ -165,3 +172,5 @@ input {
     
     
 }
+
+

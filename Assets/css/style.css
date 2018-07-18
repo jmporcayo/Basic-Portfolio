@@ -1,5 +1,7 @@
+
 html {
     height: 100%;
+    
 }
 
 body {
@@ -92,12 +94,12 @@ nav li#jmp {
 
 /*This is "About Me"*/
 h1 {
-    width: auto;
+    width: 940px;
     background-color: #ffffff;
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
     padding: 8px;
+    padding-bottom: 30px;
     border-bottom: 2px solid #cccccc; 
     margin-right: auto;
     margin-left: auto;
@@ -106,12 +108,13 @@ h1 {
  
 /*tried to float left didn't work*/
 #bio {
-    height: 225px;
+    height: 525px;
     width: 960px;
     margin-right: auto;
     margin-left: auto;
     background-color: #ffffff;
     border:5px solid #ffffff;
+
     
 }
 
@@ -168,7 +171,161 @@ input {
 }
 
 #contact {
-    text-align: left;
+    text-align: left;   
+}
+/*Portfolio......................................................................................*/
+#pix1 {
     
+    position: relative;
+    width: 210px;
+    height: 210px;
+    margin: auto;
+    float: left;
+}
+
+h2 {
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    width:200px;
+    margin: 140px 0 0 10px;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ffffff;
+}
     
+
+
+
+
+#pix2{
+    position: relative;
+    width: 210px;
+    height: 210px;
+    margin: auto;
+    float: left;
+}
+
+#pix3{
+    position: relative;
+    width: 210px;
+    height: 210px;
+    margin: auto;
+    float: left;
+}
+
+#pix4{
+    position: relative;
+    width: 210px;
+    height: 210px;
+    margin: auto;
+    float: left;
+}
+
+#pix5{
+    position: relative;
+    width: 210px;
+    height: 210px;
+    margin: auto;
+    float: left;
+}
+/*@media-----------------------------------------------------*/
+
+@media (max-width: 320px) {
+    html {
+        height: 500px;
+        width: 320px;
+        
+    }
+}
+
+@media (max-height:500px) {
+    body {
+        max-height:480px;
+       max-width:300px; 
+    }
+}
+
+@media (max-width: 320px) {
+    header {
+        max-width: 300px;
+        background-color: aquamarine;
+        font-family: fantasy;
+    }
+}
+
+@media (max-width:300px) {
+    nav {
+        max-width: 300px;
+        align-content: center;
+        display: block;
+
+    }
+}
+
+@media (max-width: 320px) {
+    #everything {
+        font-size: 1.25rem;
+        float: none;
+        width: 300px;
+        height: 500px;
+        background-image: none;
+        background-color: #666666;
+        display: block;
+        
+         
+    }
+
+}
+
+
+@media(max-width: 300px){
+    h1 {
+        width: 300px;
+    }
+}
+
+@media (max-width: 320px) {
+    #bio {
+    height: auto;
+    width:300px;
+    margin: 0 auto 0 auto;
+    border: none;
+    background-color: none;
+    }
+}
+
+@media (max-width: 300px) {
+    #para {
+        width: 300px;
+        float: none;
+        margin: 0;
+        font-size: 10px;
+        display: block;
+    }
+}
+
+
+
+/* i wanted the pictures to stack ontop of eachother vertically*/
+@media (max-width: 100px) {
+   #pix1{
+     width: 100px;
+     height: 100px;
+     display: block;
+   }
+}
+@media(max-width: 100px){
+  #pix2 {
+      width: 100px;
+      height: 100px;
+      display: block;
+
+  }  
+}
+
+@media (max-width: 300px) {
+    footer {
+        width: 300px;
+    }
 }

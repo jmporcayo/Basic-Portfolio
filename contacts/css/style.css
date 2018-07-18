@@ -1,0 +1,174 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0 auto 0 auto;
+    background-image: url("http://www.commentnation.com/backgrounds/images/light_gray_parchment_paper_seamless_pattern.jpg");
+    position: relative;
+    overflow-x: hidden;
+    background-size: auto;
+    
+    
+}
+
+/*this is my header*/
+header {
+
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+#container {
+    padding: 20px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*This is my NavBar-float right*/
+nav {
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0;
+    width: 960px;
+}
+
+nav ul {
+list-style-type: none;
+margin-bottom: 0;
+padding: 0%;
+overflow: hidden;
+background-color: white;
+
+text-align: center
+
+}
+
+nav li {
+    display: inline-block;
+    float: right; /*ABOUT PORFOLIO CONTACTS */
+    
+    
+    
+}
+
+nav li a {
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #777777;
+    
+
+}
+
+/*This is my name  top left, float-left*/
+nav li#jmp {
+    float: left;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: 18px white;
+    
+    color: #ffffff; /* couldn't figure out how to get my color to change*/
+
+}
+
+
+#everything{
+    height: auto;
+    width: 960px;
+    overflow-x: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+/*This is "About Me"*/
+h1 {
+    width: auto;
+    background-color: #ffffff;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    padding: 8px;
+    border-bottom: 2px solid #cccccc; 
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+   }
+ 
+/*tried to float left didn't work*/
+#bio {
+    height: 225px;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+    border:5px solid #ffffff;
+    
+}
+
+
+
+img {
+    float: left;
+    margin: 10px;
+}
+
+#para {
+    float: left;
+    width: 75%;
+    margin: 10px;
+    font-size: 18px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    border-top:  10px solid #4aaaa5;
+    padding: 25px;
+    background-color: #666666;
+    font: 14px;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    
+}
+
+/* form contacts--------------------------------------------- */
+
+
+
+
+form {
+    align-content: center;
+    
+    
+}
+
+input {
+    width: 925px;
+    padding: 3px;
+}
+
+
+
+.formcontainer {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 10px;
+    width: 935px;
+}
+
+#contact {
+    text-align: left;
+    
+    
+}
